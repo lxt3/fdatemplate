@@ -1,0 +1,108 @@
+---
+title: |-
+  <b>**Subject**:</b> Statistical Review of P180001
+  <b>&emsp;&emsp;&emsp;&nbsp;&nbsp;</b> Device for treatment of insanity in FDA reviewers, Pain Inc.
+subtitle: |-
+  <b>**To**:&emsp;&emsp;</b>  Slave Driver, Lead Reviewer 
+  <b>&emsp;&emsp;&emsp;&nbsp;&nbsp;</b>  ODE/SOS/ZZZ
+author: |-
+  <b>**From**:&emsp;&nbsp;Mathematical Statistician:</b>  Laura Thompson, Ph.D. 
+  <b>&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;</b>  OSB/DBS/TSBII
+date: <b>**Date**:&emsp;&nbsp;</b> `r format(Sys.time(), '%B %d, %Y')`
+output:
+  word_document:
+    reference_docx: word-styles-reference-03.docx
+    md_extensions: +styles+empty_paragraphs+all_symbols_escapable+hard_line_breaks
+css: word.css
+---
+
+<br />
+
+```{r setup, warning=FALSE, echo=FALSE}
+
+# load packages
+library(MASS)
+require(knitr, quietly = TRUE)
+
+# set global options for R chunks
+opts_chunk$set(warning=FALSE, message=FALSE, echo=FALSE, cache=TRUE, cache.extra=list(R.version))
+
+
+```
+
+
+# Background
+
+This describes the background of the device, including regulatory history and device description.
+
+
+# Study Design
+
+The study was a randomized, controlled, two-arm trial.  Here are some other details about the study.
+
+
+## Primary Endpoints
+
+The primary effectiveness endpoint was the subject's score on the Happiness Index.
+
+
+## Secondary Endpoints
+
+The secondary endpoints were  
+
+- Endpoint 1
+- Endpoint 2
+- Endpoint 3
+
+
+# Study Results
+
+Results showed that the device was not effective.
+
+
+# Statistical Issues
+
+This section describes my issues with the sponsor's analyses..
+
+
+
+## Issue 1
+
+Here is the first issue with the sponsor's analyses.
+
+```{r primaryEffAnalysis}
+# Here is my analysis of the primary endpoint
+# R code goes here.  The output will show up in the word document. 
+
+```
+
+## Issue 2
+
+Here is the second issue.
+
+
+# Deficiencies
+
+1. Def 1
+2. Def 2
+
+
+# Conclusions
+
+In this paragraph, I describe my conclusions.
+
+<!--<br /> is for a line break -->
+<br />
+
+If you have questions about this review, please contact me.
+
+#### Laura Thompson
+
+
+<!--[Laura Thompson]{custom-style="rightjustify"}-->
+
+<!--<div style="rightjustify">
+Laura
+</div>-->
+
+
